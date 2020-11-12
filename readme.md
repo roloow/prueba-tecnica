@@ -2,7 +2,7 @@
 
 Rolando Javier Casanueva Quezada
 
-## Sección ténica
+## Sección técnica
 
 Implementación de un servicio de procesamiento que genera mensajes ante la llegada de archivos a Cloud Storage. Estos mensajes poseen la ruta del archivo a ser procesado, luego se levanta Cloud Run para el enmascaramiento de columnas `Latitude` y `Longitude` junto al particionamiento del archivo por `Country` para su posterior almacenamiento en un bucket de salida en Cloud Storage.
 
